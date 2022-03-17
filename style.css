@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    width: 100%;
+    height: 44px;
+    background: rgba(0, 0, 0, 0.788);
+    backdrop-filter: blur(5px);
+}
+nav{
+    width: 60%;
+    margin: auto;
+}
+.nav_collection{
+    display: flex;
+    align-items: center;
+    height: 44px;
+    justify-content: space-between;
+    list-style: none;
+    color: #ddd;
+}
+.nav_item{
+    font-size: 13px;
+    cursor: pointer;
+}
+.nav_item:hover{
+    color: #fff;
+}
+.menu{
+    display: none;
+    
+}
+.menu > i{
+    color: #ddd;
+}
+.nav_two{
+    width: 100%;
+    height: 75px;
+    background: #F5F5F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_two>.nav_two_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_two>.nav_two_text>a{
+    margin-left: 15px;
+    margin-top: 5px;
+    color: #1C76D1;
+    text-decoration: none;
+}
+.nav_two>.nav_two_text>a:hover{
+    text-decoration: underline;
+}
+#check{
+    display: none;
+}
+.desktop_icon{
+    display: none;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    background-image: url('img/hero_iphone13pro_preorder__d46ofk3816wm_large.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner_text{
+    text-align: center;
+    padding-top: 90px;
+}
+.banner_text>.phone_name{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.banner_text>.green,a{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: #000;
+    text-decoration: none;
+}
+.start{
+    color: #9C9CA0;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.shop{
+   text-decoration: none;
+   color: #0066CC;
+   font-size: 20px;
+}
+span{
+    margin: 0 24px;
+}
+.shop >i{
+    font-size: 12px;
+}
+.two{
+    background: url('https://www.apple.com/v/home/al/images/heroes/iphone-se/hero_iphonese_preorder__e4eta8trjs66_large.jpg') no-repeat center/cover;
+}
+.three{
+    background: url('https://www.apple.com/v/home/al/images/heroes/ipad-air/hero_ipadair__flhdv47anjqu_large.jpg') no-repeat center/cover;
+    color: #fff;
+}
+.two_text{
+    margin-left: -460px;
+}
+.four{
+    width: 48%;
+    background: url('img/promo_studiodisplay__b449sh436cdy_small.jpg') no-repeat center/cover;
+    color: #000;
+    margin: 10px 10px;
+}
+.four_text{
+margin-left: 50px;
+}
+.box_s{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.five{
+    width: 48%;
+    background: url('https://www.apple.com/v/home/al/images/promos/mac-studio/promo_macstudio__gl7zppziivma_large.jpg') no-repeat center/cover;
+    color: #000;
+}
+.six{
+    background: url('https://www.apple.com/v/home/al/images/promos/iphone-13-avail/promo_iphone13_preorder__egirfkqfbwom_large.jpg') no-repeat center/cover;
+}
+.seven{
+    background: url('https://www.apple.com/v/home/al/images/promos/watch-series-7/promo_watch_lte__djeaso7ukrsm_large.jpg') no-repeat center/cover;
+}
+.eight{
+    background: url('https://www.apple.com/v/home/al/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg') no-repeat center/cover;
+}

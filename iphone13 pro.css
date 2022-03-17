@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    height: 3000px;
+}
+nav{
+    width: 100%;
+    height: 44px;
+    background: #333;
+    color: #ddd;
+}
+.nav_collection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 68%;
+    height: 100%;
+    margin: auto;
+    font-size: 14px;
+}
+.nav_collection>li{
+    list-style: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.nav_collection>li:hover{
+ color: #fff;
+}
+.navbar{
+    width: 100%;
+    height: 44px;
+    background: #fff;
+    backdrop-filter: blur(8px) brightness(78%);
+}
+.phone_name{
+    padding-top: 20px;
+    padding-left: 120px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.navbar_collection{
+    display: flex;
+    justify-content: space-between;
+    width: 28%;
+    height: 100%;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 770px;
+    margin-top: -35px;
+    font-size: 14px;
+}
+.navbar_collection>.over{
+    color: #AAAAAA;
+}
+.navbar_collection>li>button{
+    width: 60px;
+    height: 30px;
+    border-radius: 14px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #458ED8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+.navbar_collection>li>button:hover{
+    opacity: .9;
+}
+hr{
+    margin-top: 16px;
+    height: .4px;
+    color: #777;
+}
+.two_small_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    background: #F5F5F7;
+}
+.two_small_nav>span>a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #2A7FD3;
+}
+.two_small_nav>span>a>i{
+    font-size: 10px;
+}
+.two_small_nav>span>a:hover{
+    text-decoration: underline;
+}
+.two_name{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: -50px;
+ font-weight: 700;
+}
+.pro{
+    margin-left: -40px;
+    font-size: 4rem;
+    color: #1D1D1F;
+}
+article{
+    width: 92%;
+    height: 600px;
+    margin-left: 80px;
+    background: url('https://www.apple.com/v/iphone-13-pro/f/images/overview/hero/hero_endframe__3tq53uan9teq_large.jpg') no-repeat center/cover;
+}
+.text{
+    line-height: .6;
+    margin-top: 50px;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+aside{
+    width: 100%;
+    height: 806px;
+    background: url('https://www.apple.com/v/iphone-13-pro/f/images/overview/manifesto/wallpaper_startframe__crc5hsgtpzo2_large.jpg') no-repeat center/cover;
+}
+.letsgo{
+    width: 65%;
+    font-size: 3.6rem;
+    margin-left: 120px;
+    padding-top: 95px;
+    color: #fff;
+}
